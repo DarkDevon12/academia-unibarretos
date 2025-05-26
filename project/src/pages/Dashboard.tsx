@@ -21,7 +21,7 @@ const Dashboard: React.FC = () => {
   };
 
   const handleScheduleWorkout = () => {
-    alert("Funcionalidade de agendamento será implementada em breve!");
+    navigate("/schedule");
   };
 
 return (

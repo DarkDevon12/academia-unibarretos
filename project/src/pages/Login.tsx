@@ -64,13 +64,13 @@ const Login: React.FC = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-black px-4 py-12">
-      <div className="max-w-md w-full space-y-8 bg-gray-800 p-6 sm:p-10 rounded-xl shadow-lg">
+      <div className="max-w-md w-full space-y-8 bg-gray-900 p-6 sm:p-10 rounded-xl shadow-lg">
         <div className="text-center">
           <div className="flex justify-center">
             <img
-              src="./images/icon-academia-faculdade.png"
+              src="./images/UNIbarretos.png"
               alt="Ícone Academia"
-              className="h-35 w-35 object-contain mx-auto"
+              className="h-15 w-15 object-contain mx-auto"
             />
           </div>
           <p className="mt-2 text-sm text-gray-200">
@@ -113,7 +113,7 @@ const Login: React.FC = () => {
             onChange={(e) => setCpf(e.target.value.replace(/\D/g, ""))}
             error={errors.cpf}
             required
-            className="text-white placeholder-gray-400"
+            className="text-black placeholder-black-300"
           />
 
           <FormInput
@@ -125,7 +125,7 @@ const Login: React.FC = () => {
             onChange={(e) => setPassword(e.target.value)}
             error={errors.password}
             required
-            className="text-white placeholder-gray-400"
+            className="text-black placeholder-black-400"
           />
 
           <div>
